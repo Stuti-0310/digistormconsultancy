@@ -397,7 +397,10 @@ section{
     line-height: 2;
     padding: 1rem 0;
 }
-
+.email-btn{
+    width: 30rem;
+    border-radius: 10px;
+}
 .reviews .slide h3{
     font-size: 2rem;
     color: var(--black);
