@@ -380,6 +380,7 @@ section{
     text-align: center;
     box-shadow: var(--box-shadow);
     user-select: none;
+    height: 20rem;
 }
 
 .reviews .slide .stars{
@@ -403,7 +404,7 @@ section{
 }
 .reviews .slide h3{
     font-size: 2rem;
-    color: var(--black);
+    color:  var(--black);
 }
 
 .reviews .slide span{
