@@ -170,10 +170,7 @@ section{
     display: none;
 }
 
-.swiper-slide{
-    width: fit-content  !important;
-    height: 250px  !important;
-}
+
 
 .home .swiper-slide-active .content{
     display: inline-block;
@@ -385,7 +382,6 @@ section{
     text-align: center;
     box-shadow: var(--box-shadow);
     user-select: none;
-    height: 20rem;
 }
 
 .reviews .slide .stars{
