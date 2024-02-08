@@ -169,9 +169,6 @@ section{
     width: 85rem;
     display: none;
 }
-
-
-
 .home .swiper-slide-active .content{
     display: inline-block;
 }
