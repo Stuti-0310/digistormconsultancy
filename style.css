@@ -170,6 +170,11 @@ section{
     display: none;
 }
 
+.swiper-slide{
+    width: fit-content  !important;
+    height: 250px  !important;
+}
+
 .home .swiper-slide-active .content{
     display: inline-block;
 }
