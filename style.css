@@ -101,43 +101,51 @@ section{
     color: var(--black);
     letter-spacing: 2px;
 }
-/* Header starts */
 
-.header{
+/* Header starts */
+.header {
     position: sticky;
     top: 0; left: 0; right: 0;
     z-index: 1000;
     background-color: var(--white);
     display: flex;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    box-shadow: var(--box-shadow);
     align-items: center;
     justify-content: space-between;
+    padding: 1.5rem 3rem;
+    box-shadow: var(--box-shadow);
 }
 
-.header .logo{
-    font-size: 3rem;
+.header .logo {
+    display: flex; 
+    align-items: center;
+    font-size: 2.5rem;  
     font-weight: bold;
     color: var(--main);
     text-transform: uppercase;
+    text-decoration: none;
 }
 
-.header .navbar a{
-    font-size: 2rem;
+.header .logo img {
+    height: 50px;
+    margin-right: 12px;
+}
+
+.header .navbar a {
+    font-size: 1.8rem;
     margin-left: 2rem;
     color: var(--black);
+    text-decoration: none;
+    transition: all 0.3s ease;
 }
 
-.header .navbar a:hover{
-    color: var(--black);
+.header .navbar a:hover {
+    color: var(--white);
     background: var(--main);
     padding: 10px 25px;
     border-radius: 50px;
-    transition: 0.5s;
-}    
+}
 
-#menu-btn{
+#menu-btn {
     font-size: 2.5rem;
     cursor: pointer;
     color: var(--black);
@@ -781,33 +789,3 @@ textarea:focus{
         font-size: 57px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
